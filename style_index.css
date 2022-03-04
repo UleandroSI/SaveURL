@@ -1,0 +1,185 @@
+/* ==================== <base> ==================*/
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@500&family=Lobster&family=Luxurious+Roman&family=Mochiy+Pop+P+One&display=swap');
+/* font-family: 'Dancing Script', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Luxurious Roman', cursive;
+font-family: 'Mochiy Pop P One', sans-serif; */
+
+
+body{
+    background-color: darkkhaki;
+}
+
+.main{
+    background-color: rgb(223, 217, 217);
+    padding: 30px;
+}
+
+.header{
+    /*background-color:aqua;*/
+    margin: 20px;
+    padding: 20px;
+}
+
+.header h1{
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+}
+.header h4 {
+    font-family: 'Luxurious Roman', cursive;
+    text-align: justify;
+}
+
+#menu{
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.header a:hover{
+        opacity: 0.5;
+}
+
+#space{
+    width: 5px;
+    padding: 10px;
+}
+/* ==================== </base> ==================*/
+* {
+    box-sizing: border-box;
+  }
+  
+.conteudo{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.principal{
+    flex: 70%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.form_cadastro{
+    background-color: rgba(19, 19, 19, 0.3);
+    padding: 40px;
+    border-radius: 2px;
+    width:60%;
+    height: 100%;
+    text-align: center;
+}
+
+.form_header{
+    padding-bottom: 50px;
+    opacity: 0.8;
+    color: #fff;
+}
+
+.form_header::after {
+    content: "";
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+    display: block;
+    margin-top: -17px;
+    margin-left: -5px;
+}
+
+.form-content label {
+    color: #fff;
+    font-size: 16px;
+    opacity: 0.8;
+}
+
+.form_conteudo_area{
+    display: flex;
+    flex-direction: column;
+    padding:10px 0;
+    padding-bottom: 50px;
+}
+
+.form_conteudo_central{}
+
+.form_content_area input {
+    margin-top: 10px;
+    padding:0 5px;
+    background-color: transparent;
+    border:none;
+    border-bottom: 1px solid #e1e1e1;
+    outline: none;
+    color: #fff;
+}
+
+.form_footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_submit{
+    width: 100%;
+    height: 40px;
+    background-color: #a13854;
+    border:none;
+    color:#e1e1e1;
+    margin: 10px 0;
+}
+
+.form_footer a {
+    text-align: center;
+    font-size: 12px;
+    opacity: 0.8;
+    color: #fff;
+    text-decoration: none;
+}
+
+.form_footer:hover{
+    opacity: 0.5;
+}    
+
+.parceiros{
+    flex: 30%;
+    background-color: #f1f1f1;
+    padding: 20px;
+}
+
+/*
+.botao{
+    border-radius: 10%;
+    font-size: 18px;
+    border: none;
+}
+
+.botao:hover{
+    opacity: 0.5;
+} */
+
+.footer{
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.footer p{
+    display: flex;
+    justify-content: center;
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+}
+
+/* Responsive layout - when the screen is less than 700px wide, make the two columns stack on top of each other instead of next to each other */
+@media screen and (max-width: 700px) {
+    .conteudo, .navbar {   
+      flex-direction: column;
+    }
+  }
+/* ******************* */
+
+/* Fake image, just for this example */
+.fakeimg {
+    background-color: orchid;
+    width: 100%;
+    padding: 20px;
+  }

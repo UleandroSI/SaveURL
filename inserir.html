@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Armazenar leituras feitas para consulta posterior.">
+    <meta name="keywords" content="leitura, livro, livros, compreenção de texto, textos">
+    <meta name="author" content="uLeandroSP">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://github.com/UleandroSI/Ficha-de-leitura">
+    <link rel="license" href="MIT License">
+    <link rel="icon" type="image/x-icon" href="Caminho da imagem .ico">
+    <link rel="stylesheet" href="style_inserir.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>SAVEURL</title>
+</head>
+
+<body>
+  <main class="main">
+    <!-- Header-->
+    <header class="header">
+      <h1>SAVE URLs</h1>
+      <p id="menu">
+        <a href="#about">Sobre</a>
+        <a id="space">.</a>
+        <a href="#tecnologias"> Tecnologias</a>
+        <a id="space">.</a>
+        <a href="#requesites"> Pré Requesitos</a>
+        <a id="space">.</a>
+        <a href="#licence"> Licença</a>
+        <a id="space">.</a>
+        <a href="#autor"> Autor</a>
+        </p>
+      <h4 class="d-none d-print-block">Salvar URL importantes para pesquisas. E te-las disponível e compartilhada online. 
+        Cria uma página de endereço único para salvar URLs importantes para serem visualizadas depois.
+        Links para serem utilizados em projetos, ou trabalhos, ou TCC.
+        A página é aberta para qualquer um que tenha o link, e pode ser compartilhada em grupos para contribuição.</h4>
+    </header>
+
+
+    <!-- Conteiner Inserir-->
+    <section class="conteiner_inserir">
+      <form class="form" name="form"action="salvar.php" method="post">
+        <label id="label_url">URL: </label>
+        <input name="url" id="input_url" placeholder="Insira a URL aqui.">
+        <input type="submit" value="SAVE " class="botao" id="salvar"> 
+      </form>
+    </section>
+
+
+    <!-- Conteiner Retorno-->
+    <section class="conteiner_retorno">
+    </section>
+
+
+    <!-- Footer-->
+    <footer class="footer">
+        <div id="autor">
+          <a href="https://github.com/uleandrosi">
+            <img src="https://img.icons8.com/fluency/96/000000/github.png" alt="Github">
+          </a>
+          <a href=mailto:uleandrosp@gmail.com?subject="Contato Ficha Leitura">
+            <img src="https://img.icons8.com/fluency/96/000000/apple-mail.png" alt="E-mail">
+          </a>
+          <p> Desenvolvido por: &copy;uLeandroSP</p>
+          <p><a href="https://icons8.com/icon/7rhqrO588QcU/mail">Icon by Icons8</a></p>
+        </div>
+      </footer>
+  </main>
+</body>
+</html>

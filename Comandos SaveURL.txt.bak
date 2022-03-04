@@ -1,0 +1,26 @@
+# Instalar Virtualenv
+	python -m pip install virtualenv
+
+# Criar virtualenv
+	# Na pasta do projeto:
+	python -m virtualenv venv
+	
+# Ative o ambiente
+	venv\Scripts\activate.bat
+
+# Instalar as dependências
+	pip install -r requirements.txt
+	pip install flask_sqlalchemy
+	pip install mysql-connector-python
+	pip install mysqlclient
+	
+	
+	
+	
+	
+	
+# Criar requirements.txt
+	pip freeze > requirements.txt
+# Instalar pacotes requirements.txt
+	pip install -r requirements.txt
+	

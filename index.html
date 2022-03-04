@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="Armazenar leituras feitas para consulta posterior.">
+    <meta name="keywords" content="leitura, livro, livros, compreenção de texto, textos">
+    <meta name="author" content="uLeandroSP">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="author" href="https://github.com/UleandroSI/Ficha-de-leitura">
+    <link rel="license" href="MIT License">
+    <link rel="icon" type="image/x-icon" href="Caminho da imagem .ico">
+    <link rel="stylesheet" href="style_index.css">
+    <script type="text/javascript" src="script.js"></script>
+    <title>Cadastro</title>
+</head>
+
+<body>
+  <main class="main">
+    <!-- Header-->
+    <header class="header">
+      <h1>SAVE URLs</h1>
+      <p id="menu">
+        <a href="#home">Home</a>
+        <a id="space">.</a>
+        <a href="inserir.html"> Novo</a>
+        <a id="space">.</a>
+        <a href="#requesites"> Pré Requesitos</a>
+        <a id="space">.</a>
+        <a href="#licence"> Licença</a>
+        <a id="space">.</a>
+        <a href="#autor"> Autor</a>
+        </p>
+      <h4 class="d-none d-print-block">Salvar URL importantes para pesquisas. E te-las disponível e compartilhada online. 
+        Cria uma página de endereço único para salvar URLs importantes para serem visualizadas depois.
+        Links para serem utilizados em projetos, ou trabalhos, ou TCC.
+        A página é aberta para qualquer um que tenha o link, e pode ser compartilhada em grupos para contribuição.</h4>
+    </header>
+
+    <div class="conteudo">
+      <!-- Dividi o conteudo em duas colunas desiguais-->
+      
+      <div class="principal">
+        <form name="cadastro"action="salvar.php" method="POST" class="form_cadastro">
+          <div class="form_header">
+            <h2> Criar Nova Página </h2>
+          </div>
+          <div class="form_conteudo">
+            <div class="form_conteudo_area">
+              <p><label id="label_nome">Nome: </label></p>
+              <input id="input_name" type="text" name="input_nome" placeholder="Nome para endereço do link" style="text-align: center">
+            </div>
+            <div class="form_conteudo_central">
+              <input type="checkbox" name="check_email">
+              <label id="label_email" for="check_email">Enviar link para seu email</label>
+            </div>
+            <div class="form_conteudo_area">  
+              <input id="input_email" type="text" name="input_email" placeholder="insira seu email" style="text-align: center">
+            </div>
+          </div>
+          <div class="form_footer">
+            <input type="submit" value="Criar Página" class="form_submit">
+          </div>
+        </form>
+      </div>
+
+      <div class="parceiros">
+        align-self 	Specifies the alignment for a flex item (overrides the flex container's align-items property)
+        flex 	A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
+        flex-basis 	Specifies the initial length of a flex item
+        flex-grow 	Specifies how much a flex item will grow relative to the rest of the flex items inside the same container
+        flex-shrink 	Specifies how much a flex item will shrink relative to the rest of the flex items inside the same container
+        order 	Specifies the order of the flex items inside the same container
+
+        <h2>About Me</h2>
+        <h5>Photo of me:</h5>
+        <div class="fakeimg" style="height:200px;">Image</div>
+        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
+        <h3>More Text</h3>
+        <p>Lorem ipsum dolor sit ame.</p>
+        <div class="fakeimg" style="height:60px;">Image</div><br>
+        <div class="fakeimg" style="height:60px;">Image</div><br>
+        <div class="fakeimg" style="height:60px;">Image</div>
+      </div>
+    </div>
+
+    <!-- Footer-->
+    <footer class="footer">
+        <div id="autor">
+          <a href="https://github.com/uleandrosi">
+            <img src="https://img.icons8.com/fluency/96/000000/github.png" alt="Github">
+          </a>
+          <a href=mailto:uleandrosp@gmail.com?subject="Contato Ficha Leitura">
+            <img src="https://img.icons8.com/fluency/96/000000/apple-mail.png" alt="E-mail">
+          </a>
+          <p> Desenvolvido por: &copy;uLeandroTI</p>
+          <p><a href="https://icons8.com/icon/7rhqrO588QcU/mail">Icon by Icons8</a></p>
+        </div>
+      </footer>
+  </main>
+
+</body>
+</html>
+
+
