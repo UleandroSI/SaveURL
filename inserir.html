@@ -12,8 +12,41 @@
     <link rel="author" href="https://github.com/UleandroSI/Ficha-de-leitura">
     <link rel="license" href="MIT License">
     <link rel="icon" type="image/x-icon" href="Caminho da imagem .ico">
-    <link rel="stylesheet" href="style_inserir.css">
     <script type="text/javascript" src="script.js"></script>
+    <link rel="stylesheet" href="style.css">
+    
+    <style>
+      .conteiner_inserir{
+          display: flex;
+          justify-content: center;
+          width: 100%;
+      }
+      .form{
+          display: flex;
+          justify-content: center;
+          width: 100%;
+      }
+
+      #label_url{
+          margin-right: 5px;
+      }
+
+      #input_url{
+          width: 100%;
+          min-width: 50%;
+      }
+
+      #salvar{
+          font-size: 17px;
+          margin-left: 10px;
+      }
+
+      .conteiner_retorno{
+          min-height: 350px;
+          padding-bottom: 50px;
+      }
+    </style>
+
     <title>SAVEURL</title>
 </head>
 
@@ -23,16 +56,14 @@
     <header class="header">
       <h1>SAVE URLs</h1>
       <p id="menu">
-        <a href="#about">Sobre</a>
+        <a href="index.html">Home</a>
         <a id="space">.</a>
-        <a href="#tecnologias"> Tecnologias</a>
+        <a href="inserir.html"> Novo</a>
         <a id="space">.</a>
-        <a href="#requesites"> Pré Requesitos</a>
-        <a id="space">.</a>
-        <a href="#licence"> Licença</a>
+        <a href="termos.html"> Termos</a>
         <a id="space">.</a>
         <a href="#autor"> Autor</a>
-        </p>
+      </p>
       <h4 class="d-none d-print-block">Salvar URL importantes para pesquisas. E te-las disponível e compartilhada online. 
         Cria uma página de endereço único para salvar URLs importantes para serem visualizadas depois.
         Links para serem utilizados em projetos, ou trabalhos, ou TCC.
@@ -42,9 +73,9 @@
 
     <!-- Conteiner Inserir-->
     <section class="conteiner_inserir">
-      <form class="form" name="form"action="salvar.php" method="post">
+      <form class="form" name="form"action="inserir.php" method="post">
         <label id="label_url">URL: </label>
-        <input name="url" id="input_url" placeholder="Insira a URL aqui.">
+        <input name="input_url" id="input_url" placeholder="Insira a URL aqui.">
         <input type="submit" value="SAVE " class="botao" id="salvar"> 
       </form>
     </section>
@@ -52,6 +83,7 @@
 
     <!-- Conteiner Retorno-->
     <section class="conteiner_retorno">
+
     </section>
 
 
@@ -68,6 +100,7 @@
           <p><a href="https://icons8.com/icon/7rhqrO588QcU/mail">Icon by Icons8</a></p>
         </div>
       </footer>
+      <a id="top" href="#menu">Top</a>
   </main>
 </body>
 </html>

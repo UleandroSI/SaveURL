@@ -21,13 +21,16 @@ A página é aberta para qualquer um que tenha o link, e pode ser compartilhada 
 ### O que faz o projeto
 
 - [] Criar descrição do Projeto.
-- [] Criar backend com Django.
+- [] Criar backend com PHP.
 - [] 
 - [] Criar template para páginas de URL.
 - [] GIF's de demonstração de funcionamento.
 	
 ### Tecnologias
-- [Django](https://www.djangoproject.com/)
+- [PHP]()
+- [JavaScript]()
+- [HTML]()
+- [CSS]()
 - [MySQL](https://dev.mysql.com/doc/)
 
 #requesites

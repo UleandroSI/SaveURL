@@ -15,6 +15,10 @@ body{
     padding: 30px;
 }
 
+#top{
+    float: right;
+}
+
 .header{
     /*background-color:aqua;*/
     margin: 20px;
@@ -66,7 +70,7 @@ body{
     background-color: rgba(19, 19, 19, 0.3);
     padding: 40px;
     border-radius: 2px;
-    width:60%;
+    width:70%;
     height: 100%;
     text-align: center;
 }
@@ -140,6 +144,7 @@ body{
 
 .parceiros{
     flex: 30%;
+    flex-wrap: wrap;
     background-color: #f1f1f1;
     padding: 20px;
 }
@@ -179,7 +184,8 @@ body{
 
 /* Fake image, just for this example */
 .fakeimg {
-    background-color: orchid;
+    background-color: rgb(201, 250, 217);
     width: 100%;
     padding: 20px;
+    
   }

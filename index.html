@@ -12,7 +12,7 @@
     <link rel="author" href="https://github.com/UleandroSI/Ficha-de-leitura">
     <link rel="license" href="MIT License">
     <link rel="icon" type="image/x-icon" href="Caminho da imagem .ico">
-    <link rel="stylesheet" href="style_index.css">
+    <link rel="stylesheet" href="style.css">
     <script type="text/javascript" src="script.js"></script>
     <title>Cadastro</title>
 </head>
@@ -23,18 +23,16 @@
     <header class="header">
       <h1>SAVE URLs</h1>
       <p id="menu">
-        <a href="#home">Home</a>
+        <a href="index.html">Home</a>
         <a id="space">.</a>
         <a href="inserir.html"> Novo</a>
         <a id="space">.</a>
-        <a href="#requesites"> Pré Requesitos</a>
-        <a id="space">.</a>
-        <a href="#licence"> Licença</a>
+        <a href="termos.html"> Termos</a>
         <a id="space">.</a>
         <a href="#autor"> Autor</a>
-        </p>
+      </p>
       <h4 class="d-none d-print-block">Salvar URL importantes para pesquisas. E te-las disponível e compartilhada online. 
-        Cria uma página de endereço único para salvar URLs importantes para serem visualizadas depois.
+        Uma página de endereço único para salvar URLs importantes para serem visualizadas depois.
         Links para serem utilizados em projetos, ou trabalhos, ou TCC.
         A página é aberta para qualquer um que tenha o link, e pode ser compartilhada em grupos para contribuição.</h4>
     </header>
@@ -43,14 +41,14 @@
       <!-- Dividi o conteudo em duas colunas desiguais-->
       
       <div class="principal">
-        <form name="cadastro"action="salvar.php" method="POST" class="form_cadastro">
+        <form name="cadastro" action="salvar.php" method="POST" class="form_cadastro">
           <div class="form_header">
             <h2> Criar Nova Página </h2>
           </div>
           <div class="form_conteudo">
             <div class="form_conteudo_area">
               <p><label id="label_nome">Nome: </label></p>
-              <input id="input_name" type="text" name="input_nome" placeholder="Nome para endereço do link" style="text-align: center">
+              <input id="input_name" type="text" name="input_name" placeholder="Nome para endereço do link" style="text-align: center">
             </div>
             <div class="form_conteudo_central">
               <input type="checkbox" name="check_email">
@@ -67,22 +65,26 @@
       </div>
 
       <div class="parceiros">
-        align-self 	Specifies the alignment for a flex item (overrides the flex container's align-items property)
-        flex 	A shorthand property for the flex-grow, flex-shrink, and the flex-basis properties
-        flex-basis 	Specifies the initial length of a flex item
-        flex-grow 	Specifies how much a flex item will grow relative to the rest of the flex items inside the same container
-        flex-shrink 	Specifies how much a flex item will shrink relative to the rest of the flex items inside the same container
-        order 	Specifies the order of the flex items inside the same container
-
-        <h2>About Me</h2>
-        <h5>Photo of me:</h5>
-        <div class="fakeimg" style="height:200px;">Image</div>
-        <p>Some text about me in culpa qui officia deserunt mollit anim..</p>
-        <h3>More Text</h3>
-        <p>Lorem ipsum dolor sit ame.</p>
-        <div class="fakeimg" style="height:60px;">Image</div><br>
-        <div class="fakeimg" style="height:60px;">Image</div><br>
-        <div class="fakeimg" style="height:60px;">Image</div>
+        <h2>Sobre o site</h2>
+        <h5>Modo de usar:</h5>
+        <div class="fakeimg">
+          <ul>
+            <li>Crie uma página para armazenar os links.</li>
+            <li>Dê um nome para ser usado na criação do link.</li>
+            <li>Caso queira insira seu email para receber o link da página em seu email.</li>
+            <li>Obs.: O email é somente para envio do link, já que o link é o único meio de acesso, e não tem como recuperá-lo depois. Leia o Termo de Uso para mais informações sobre.</li>
+            <li>Ao criar à página poderá inserir links, que sempre que acessar novamente à página os links estarão disponíveis.</li>
+            <li>Distribua o link com quem desejá compartilhar os links salvos.</li>
+            <li>Lembrando que: Quem possuir o link de acesso conseguirá visualizar à página.</li>
+          </ul>
+        </div>
+        <p>Caso goste do site e lhe seja útil, considere fazer uma doação para manter o projeto, que é mantido sem patrocínio.</p>
+        <h3>Parceiros</h3>
+        <p>Agradecimentos</p>
+        <div class="fakeimg" style="height:60px;">Alunos <a href="https://univesp.br/">UNIVESP</a> </div><br>
+        <div class="fakeimg" style="height:60px;"><a href="https://sorocaba.osbrasil.org.br/"> Observatório Social do Brasil - Sorocaba/SP</a> </div><br>
+        <div class="fakeimg" style="height:60px;"><a href="/img/pix.png">DOAR[PIX]</a></div>
+        <p>Use com prudência e obedeça os termos de uso. Em caso de mau uso à página poderá ser excluida sem prévio aviso.</p>
       </div>
     </div>
 
@@ -96,9 +98,10 @@
             <img src="https://img.icons8.com/fluency/96/000000/apple-mail.png" alt="E-mail">
           </a>
           <p> Desenvolvido por: &copy;uLeandroTI</p>
-          <p><a href="https://icons8.com/icon/7rhqrO588QcU/mail">Icon by Icons8</a></p>
+          <p><a href="https://icons8.com/">Icon by Icons8</a></p>
         </div>
       </footer>
+      <a id="top" href="#menu">Top</a>
   </main>
 
 </body>
